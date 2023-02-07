@@ -14,3 +14,4 @@ jobs:
           access-token: ${{ secrets.gatsby }}
           deploy-branch: master
           gatsby-args: --prefix-paths
+          path: 'src/pages/index.js'
