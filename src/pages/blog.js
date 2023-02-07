@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from "../components/button"
+import { Button } from "../components/Button"
 import SearchPosts from "../components/searchPosts"
 
 class Blog extends React.Component {
@@ -23,7 +23,7 @@ class Blog extends React.Component {
           location={location}
         />
         <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
+          <Button>Voltar para o início</Button>
         </Link>
       </Layout>
     )
